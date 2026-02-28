@@ -11,6 +11,12 @@
     <textarea name="description" placeholder="Descripción"></textarea>
     <br><br>
 
+    <textarea name="category" placeholder="Category"></textarea>
+    <br><br>
+
+    <textarea name="location" placeholder="Location"></textarea>
+    <br><br>
+
     <input type="file" name="image">
     <br><br>
 

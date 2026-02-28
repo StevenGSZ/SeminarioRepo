@@ -24,6 +24,8 @@ class NewsController {
 
         $title = $_POST['title'] ?? '';
         $desc  = $_POST['description'] ?? '';
+        $category  = $_POST['category'] ?? '';
+        $location  = $_POST['location'] ?? '';
 
         $imagePath = null;
         
@@ -48,7 +50,7 @@ class NewsController {
             }
         }
 
-        News::create($title, $desc, $imagePath);
+        News::create($title, $desc, $category, $location, $imagePath);
 
         header("Location: /seminario/access/dashboard");
         exit;

@@ -10,14 +10,14 @@
 </head>
 <body>
     <!-- Header y navegación -->
-    <div class="container-fluid menuContiner">
+    <div class="container-fluid menuContiner2">
         <div class="container mainMenu">
             <nav class="navbar navbar-expand-lg mainMenu2">
                 <div class="container-fluid">
                     <a class="navbar-brand fw-bold" href="/seminario/access/">
                         <img src="/seminario/app/views/public/img/logo.jpeg" alt="" width="60">
                     </a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar" aria-controls="mainNavbar" aria-expanded="false" aria-label="Alternar navegación" onclick="btnExpandir(this)">
+                    <button id="btnNav" class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar" aria-controls="mainNavbar" aria-expanded="false" aria-label="Alternar navegación" onclick="btnExpandir(this)">
                         <span class="navbar-toggler-icon"></span>
                     </button>
                     <div class="collapse navbar-collapse" id="mainNavbar">
@@ -38,7 +38,7 @@
                                 </ul>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#historia">Historia</a>
+                                <a class="nav-link" href="/seminario/access/#historia">Historia</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="/seminario/access/news">Noticias</a>
@@ -80,9 +80,8 @@
         <div class="container hero-section">
             <div class="row align-items-center">
                 <div class="col-lg-8">
-                    <h1 class="hero-title">Seminario Mayor "Pio XII"</h1>
-                    <p class="hero-subtitle">Formando futuros pastores según el corazón de Cristo</p>
-                    <a href="#fin-naturaleza" id="serachBtn" class="btn btn-primary btn-hero">Conoce más</a>
+                    <h1 class="hero-title">Noticias del Seminario</h1>
+                    <p class="hero-subtitle">Mantente informado sobre las últimas actividades, eventos y acontecimientos de nuestra comunidad formativa</p>
                 </div>
             </div>
         </div>

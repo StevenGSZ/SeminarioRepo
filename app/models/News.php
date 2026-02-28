@@ -14,15 +14,15 @@ class News {
         return $stmt->fetchAll(PDO::FETCH_ASSOC);
     }
 
-    public static function create($title, $description, $urlImg) {
+    public static function create($title, $description, $category, $location, $urlImg) {
 
         $db = Database::connect();
 
         $stmt = $db->prepare(
-            "INSERT INTO news (Title, Description, UrlImg)
-             VALUES (?, ?, ?)"
+            "INSERT INTO news (Title, Description, Category, Location, UrlImg)
+             VALUES (?, ?, ?, ?, ?)"
         );
 
-        return $stmt->execute([$title, $description, $urlImg]);
+        return $stmt->execute([$title, $description, $category, $location, $urlImg]);
     }
 }

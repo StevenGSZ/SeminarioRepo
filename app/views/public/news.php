@@ -1,4 +1,4 @@
-<?php require __DIR__ . '/../layout/header.php'; ?>
+<?php require __DIR__ . '/../layout/header_nav.php'; ?>
 
 <h1>Noticias del Seminario</h1>
 
