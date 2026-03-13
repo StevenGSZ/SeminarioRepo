@@ -2,7 +2,7 @@
     <footer class="footer bg-dark text-white">
         <div class="container d-flex">
             <div class="col-2">
-                <img src="/seminario/app/views/public/img/logo.jpeg" alt="" style="width: 100%">
+                <img src="/seminario/app/views/public/img/logo.jpeg" alt="" style="width: 100%; border-radius: 50%;">
             </div>
             <div class="col-1"></div>
             <div class="col-9">
