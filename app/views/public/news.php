@@ -14,7 +14,7 @@
 
         <!-- Grid de noticias -->
         <div class="row g-4 news-grid">
-            <!-- Noticia 1 -->
+            <!-- aca debe ir el foreach -->
             <div class="col-lg-4 col-md-6 news-item" data-date="2024-03-15" data-year="2024">
                 <article class="news-card">
                     <div class="news-card-image">
@@ -39,7 +39,6 @@
                 </article>
             </div>
 
-            <!-- Noticia 2 -->
             <div class="col-lg-4 col-md-6 news-item">
                 <article class="news-card">
                     <div class="news-card-image">
@@ -64,7 +63,6 @@
                 </article>
             </div>
 
-            <!-- Noticia 3 -->
             <div class="col-lg-4 col-md-6 news-item">
                 <article class="news-card">
                     <div class="news-card-image">
